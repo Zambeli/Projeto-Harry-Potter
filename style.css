@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/harry\ putte.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-harry {
+    width: 60px;   
+}
+
+.cabecalhomenu {
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+}
+
+.cabecahomenuitem {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+.cabecahomenuitem:hover {
+    background-color: red;
+}
+
+/* MAIN */
+
+.principal {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.principal-imagem-logo {
+    width: 100vh;
+}
+
+.secundaria {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    margin-bottom: 4rem;
+}
+
+
+/* Secundario */
+
+.secundaria-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secundario-texto-inicio {
+    color: white;
+    text-shadow: black 3px 3px 5px;
+}
+
+.filmes {
+    display: flex;
+    text-align: center;
+    Flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.imagemfilme {
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+}
+ 
+.filmesparagrafo {
+    max-width: 400px;
+    text-shadow: black 3px 3px 5px;
+    color: white;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.secundaria-texto-filmes {
+    color: white;
+}
+
+
+/* TERCIARIO */
+
+.terciario {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 4rem;
+}
+
+.quadro-livros {
+    display: flex;
+    Flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-basis: calc(23.33% - 15px);
+}
+
+.botao-livro {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 180px;
+    height: 30px;
+    background: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+.botao-livro:hover {
+    background-color: red;
+}
+
+.descricao-livro {
+    color: white;
+}
+
+
+/* CASAS  */
+
+.section-casas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.casas {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    color: white;
+    display: flex;
+    width: 100vh;
+    align-items: center;
+}
+
+.casas-imagem-casas {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.casas-tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.casas-expicacao {
+    display: flex;
+}
+
+.descricao-casas {
+    font-size: 15px;
+}
+
+/* FOOTER */
